@@ -25,47 +25,4 @@ Phương pháp này tập trung vào việc đặt dữ liệu vào bối cảnh
 * **Kỹ thuật định vị (Geolocation techniques):** Sử dụng bản đồ của [Google Maps](https://www.google.com/maps), [Bing Maps](https://www.bing.com/maps), [Yandex Maps](https://yandex.com/maps) để tìm ra chính xác tọa độ nơi một bức ảnh được chụp. Tùy vào mục đích, có thể dùng thêm các công cụ theo dõi camera đường phố, hoặc radar hàng không/hàng hải để giám sát mục tiêu.
 * **Phân tích hình ảnh chuyên sâu (Image analysis):** Soi xét kỹ lưỡng các chi tiết trong ảnh như bóng đổ (để đoán thời gian chụp) hoặc các mốc địa lý phía hậu cảnh. Các công cụ như [FotoForensics](https://fotoforensics.com/) được sử dụng để bóc tách và tìm kiếm dữ liệu bị ẩn giấu bên trong bức ảnh.
 
--------
 
-# Khai thác Mạng xã hội trong OSINT (SOCMINT)
-
-Tình báo Mạng xã hội (SOCMINT - Social Media Intelligence) có thể được xem là một nhánh chuyên sâu của OSINT, tập trung vào việc khai quật thông tin từ thế giới nền tảng mạng xã hội nhộn nhịp. Trong khi OSINT truyền thống thường hài lòng với các dữ liệu tĩnh có sẵn trên web công cộng, SOCMINT tiến sâu hơn một bước, tiếp cận vào các luồng thông tin thường xuyên biến động và đôi khi nằm trong các vòng kết nối mang tính khép kín hơn.
-
-Các nền tảng này cung cấp lượng dữ liệu khổng lồ có thể được phân tích cho nhiều mục đích bảo mật khác nhau. Dưới đây là cách các nhà phân tích biến các nền tảng phổ biến thành nguồn thông tin tình báo:
-
-## Khai thác các Nền tảng Mạng xã hội Phổ biến
-
-* **[X (trước đây là Twitter)](https://twitter.com)**
-  * **Trạm phát sóng tin tức:** Đây là điểm nóng cho mọi tin tức và sự kiện nóng hổi. Các nhà phân tích thường xuyên theo dõi nền tảng này để nắm bắt thông tin theo thời gian thực (real-time).
-  * **Tìm kiếm có chọn lọc:** Nền tảng này sở hữu bộ lọc tìm kiếm cực mạnh, cho phép người phân tích rà soát các bài đăng (tweet) và trích xuất chính xác thông tin họ cần.
-  * **Tích hợp API:** Khả năng kết nối API của X là một công cụ tiết kiệm thời gian tuyệt vời, hỗ trợ việc tự động hóa thu thập dữ liệu hàng loạt mà không tốn nhiều công sức.
-
-* **[Facebook](https://www.facebook.com)**
-  * **Cộng đồng và Hội nhóm:** Một không gian khổng lồ chứa các nhóm và diễn đàn nơi người dùng thảo luận mọi chủ đề. Đây là nơi lý tưởng để thu thập dữ liệu thô và nắm bắt tâm lý đám đông.
-  * **Thị trường Marketplace:** Nơi ghi nhận các hoạt động mua bán nhộn nhịp, giúp nhà phân tích đánh giá các xu hướng thị trường và hành vi tiêu dùng của một nhóm đối tượng.
-  * **Sự kiện (Events):** Tính năng này giúp các nhà nghiên cứu thu thập thông tin tình báo về các sự kiện thực tế sắp diễn ra và lập danh sách những người có khả năng sẽ tham dự.
-
-* **[LinkedIn](https://www.linkedin.com)**
-  * **Mạng lưới chuyên gia:** Trung tâm của các kết nối công việc. Nơi đây cung cấp cái nhìn chi tiết về cơ cấu tổ chức của các công ty, các ngành công nghiệp và những nhân sự chủ chốt, phục vụ đắc lực cho việc nghiên cứu doanh nghiệp.
-  * **Bảng tin tuyển dụng:** Các bài đăng tuyển dụng là nguồn tình báo cực kỳ giá trị, cho phép "nhìn trộm" vào các công nghệ (technology stack) mà mục tiêu đang sử dụng và định hướng kinh doanh của họ.
-  * **Nội dung chuyên môn:** Người dùng tại đây thường xuyên chia sẻ các bài viết học thuật, slide thuyết trình, tạo ra một kho dữ liệu kiến thức phong phú để phân tích.
-
-* **[Instagram](https://www.instagram.com)**
-  * **Dữ liệu trực quan:** Nền tảng xoay quanh hình ảnh và video, hoàn hảo cho các phân tích nhằm phát hiện xu hướng hoặc đánh giá cảm xúc (sentiment analysis).
-  * **Sức mạnh của Thẻ (Tag):** Tính năng Hashtag và Geotag (thẻ vị trí địa lý) giúp người phân tích dễ dàng phân loại nội dung và truy vết thông tin theo các khu vực vật lý cụ thể.
-  * **Theo dõi Influencer:** Giám sát các cá nhân có sức ảnh hưởng giúp nhà phân tích nắm bắt được các luồng dư luận và chiến lược truyền thông xã hội hiện hành.
-
-## Phân tích Chuyên sâu các Khái niệm trong SOCMINT
-
-Để thực hiện SOCMINT hiệu quả, bạn cần nắm vững ba yếu tố cốt lõi cấu thành nên hồ sơ mạng của một mục tiêu:
-
-* **Chi tiết hồ sơ người dùng (Profile details):** Đây là các **dữ liệu tĩnh**, cung cấp cái nhìn tổng quan về danh tính mà người dùng xây dựng trên mạng. Ví dụ: Trên LinkedIn, họ có thể khai báo chức danh "Windows Admin", liệt kê kỹ năng "Exchange 2013" hoặc "SharePoint". Trên X, phần tiểu sử (bio) có thể tiết lộ sở thích cá nhân.
-* **Lịch sử tương tác (Interactions):** Đây là các **hoạt động động** (dynamic activities). Ví dụ: Một người tham gia bình luận trong nhóm an ninh mạng trên Facebook, hoặc chia sẻ một bài viết về hội thảo tấn công mạng (ethical hacking). Tương tác cung cấp cái nhìn thực tế về quan điểm, mối quan tâm và vòng kết nối của người dùng.
-* **Siêu dữ liệu (Metadata):** Là phần dữ liệu ngữ cảnh đi kèm theo nội dung được đăng tải. Một bức ảnh có thể chứa các thông tin ẩn như tọa độ địa lý, thời gian đăng, và loại thiết bị sử dụng (iPhone, Android). Siêu dữ liệu giúp xây dựng một hồ sơ theo dõi hành vi cực kỳ chi tiết. 
-
-## Phân loại Dữ liệu trong SOCMINT
-
-Dưới góc độ kỹ thuật, dữ liệu thu thập được chia làm hai loại chính:
-
-* **Thông tin tường minh (Explicit information):** Đây là dữ liệu người dùng **chủ động và cố ý** chia sẻ trên mạng. Nó tạo nên lớp vỏ bọc danh tính trực tuyến rõ ràng nhất. Ví dụ: Đăng một dòng trạng thái bày tỏ quan điểm về bảo mật, cập nhật chứng chỉ IT mới lấy được lên LinkedIn, hoặc khai báo nơi làm việc hiện tại. Nó là cánh cửa trực tiếp nhìn vào đời sống và chuyên môn của mục tiêu.
-* **Thông tin ngầm định (Implicit information):** Đây là loại dữ liệu tinh vi hơn, thường bị người dùng **vô tình tiết lộ**. Bằng cách phân tích thói quen nhấn "Thích" (Like) hoặc "Chia sẻ" (Share), nhà phân tích có thể suy ra xu hướng chính trị, sự ủng hộ ngầm cho một nhóm nào đó. Tương tự, thông tin ngầm cũng nằm trong thẻ vị trí hoặc loại thiết bị đăng bài, giúp xác định thói quen di chuyển của mục tiêu.
