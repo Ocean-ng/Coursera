@@ -22,15 +22,3 @@ Phương pháp này tập trung vào việc đặt dữ liệu vào bối cảnh
 * **Phân tích ảnh vệ tinh và không ảnh:** Không chỉ dừng lại ở Google Earth, các nhà phân tích sử dụng các nền tảng chuyên dụng như [Sentinel Hub](https://www.sentinel-hub.com/) để theo dõi sự thay đổi của môi trường, cấu trúc đô thị hoặc các cơ sở vật chất không được công bố.
 * **Kỹ thuật định vị (Geolocation techniques):** Sử dụng bản đồ của [Google Maps](https://www.google.com/maps), [Bing Maps](https://www.bing.com/maps), [Yandex Maps](https://yandex.com/maps) để tìm ra chính xác tọa độ nơi một bức ảnh được chụp. Tùy vào mục đích, có thể dùng thêm các công cụ theo dõi camera đường phố, hoặc radar hàng không/hàng hải để giám sát mục tiêu.
 * **Phân tích hình ảnh chuyên sâu (Image analysis):** Soi xét kỹ lưỡng các chi tiết trong ảnh như bóng đổ (để đoán thời gian chụp) hoặc các mốc địa lý phía hậu cảnh. Các công cụ như [FotoForensics](https://fotoforensics.com/) được sử dụng để bóc tách và tìm kiếm dữ liệu bị ẩn giấu bên trong bức ảnh.
-
-## Tầm quan trọng của việc lựa chọn phương pháp phù hợp
-
-Trong OSINT, việc chọn đúng kỹ thuật cho một nhiệm vụ cụ thể cũng giống như việc chọn đúng công cụ để làm việc. Ví dụ:
-
-* **Ngăn chặn gián điệp doanh nghiệp:** Nếu bạn là một chuyên gia an ninh mạng bảo vệ bí mật thương mại, việc rà soát mạng xã hội có thể giúp giám sát hoạt động trực tuyến của nhân sự để ngăn chặn rò rỉ dữ liệu. (Đóng vai trò như một tin tặc mũ trắng - Whitehat hacker).
-* **Ứng phó thảm họa:** Sau một thảm họa thiên nhiên, phân tích không gian địa lý thông qua ảnh vệ tinh giúp xác định chính xác các khu vực bị ảnh hưởng để lên kế hoạch cứu hộ hiệu quả.
-* **Nghiên cứu thị trường:** Phân tích các xu hướng và luồng ý kiến trên mạng xã hội giúp đánh giá chính xác cảm nhận của người dùng về một thương hiệu hoặc sản phẩm.
-
-Lựa chọn đúng phương pháp OSINT không chỉ là thu thập dữ liệu, mà là thu thập **đúng** dữ liệu, đồng thời luôn phải tuân thủ các chuẩn mực đạo đức nghề nghiệp.
-
----
