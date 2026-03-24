@@ -282,4 +282,68 @@ Giải thích:
 - **Xây dựng dataset:** Trích xuất dữ liệu từ các nguồn hiện tại và lịch sử với số lượng lớn.
 
 
+---
+
+## Phân Tích Tài Liệu và Metadata
+
+Tài liệu và metadata đính kèm thường chứa đựng một kho thông tin bị bỏ qua. Các file như PDF, Word, và spreadsheet không chỉ mang nội dung rõ ràng mà còn chứa metadata tiết lộ thông tin như tác giả, ngày tạo/chỉnh sửa, và đôi khi cả thông tin nhạy cảm không có chủ đích công khai.
+
+---
+
+## FOCA
+
+[FOCA](https://github.com/ElevenPaths/FOCA) (Fingerprinting Organizations with Collected Archives) là công cụ dùng để tải tài liệu từ website và phân tích metadata bên trong. Metadata có thể chứa các thông tin như:
+
+- Tên người dùng (username) của những ai đã chỉnh sửa tài liệu
+- Phiên bản phần mềm dùng để tạo file
+- Đường dẫn file tiết lộ nơi lưu trữ trên hệ thống
+
+FOCA hoạt động bằng cách tìm kiếm thụ động trên Google, Bing và DuckDuckGo để tìm các loại tài liệu như Word, PDF, Excel, PowerPoint từ tên miền mục tiêu. Công cụ này hoạt động trong nền mà không tạo ra nhiều "tiếng ồn" để cảnh báo trang web mục tiêu.
+
+Sau khi có metadata, bạn có thể:
+
+- Lấy username tìm được và tìm kiếm trên các nền tảng khác để xem liệu chúng có liên kết với người đó ở nơi khác không.
+- Tra cứu phiên bản phần mềm trong metadata để kiểm tra các lỗ hổng đã biết (CVE) có thể bị khai thác.
+
+---
+
+## Phân Tích Nội Dung Tài Liệu
+
+Các điểm mấu chốt và dữ kiện ẩn trong file PDF, tài liệu Office, file text và nhiều loại khác có thể cung cấp manh mối quan trọng về hoạt động, kế hoạch, đối tác của một tổ chức hoặc cá nhân.
+
+Các kỹ thuật như trích xuất văn bản, phân tích metadata và đánh dấu đoạn văn có thể đưa lên bề mặt các tên, ngày tháng, địa điểm, sự kiện và các chi tiết khác có thể bị bỏ qua khi xem xét tài liệu ban đầu.
+
+Ngoài ra, tài liệu thường chứa metadata ẩn như thông tin địa lý (geolocation), thông tin tác giả và lịch sử chỉnh sửa — cung cấp ngữ cảnh về quá trình tạo và phân phối tài liệu.
+
+
+---
+
+### Maltego
+
+[Maltego](https://www.maltego.com/) tạo ra mô hình đồ thị mô tả cách các thực thể khác nhau như con người, website, tên miền, địa chỉ IP, tổ chức kết nối với nhau. Các liên kết được phát hiện thông qua các "transform" — tự động hóa việc tìm kiếm, lọc và tương quan dữ liệu từ cả nguồn mở lẫn nguồn độc quyền.
+
+
+### CaseFile
+
+CaseFile là tính năng phân tích dữ liệu offline từng tồn tại như một sản phẩm độc lập. Kể từ **Maltego Graph v4.8.0**, CaseFile không còn là sản phẩm riêng biệt nữa. Các tính năng offline data analysis của CaseFile hiện đã được tích hợp vào **Maltego Community Edition** (miễn phí). Người dùng chỉ cần tạo tài khoản Maltego ID và cài thêm "CaseFile Entities" từ Maltego Data Hub là có thể sử dụng.
+
+### Gephi
+
+[Gephi](https://gephi.org/) là bộ công cụ phân tích đồ thị và mạng mã nguồn mở, được viết bằng Java. Gephi thường được dùng để phân tích và trực quan hóa các kết nối trong mạng như mạng xã hội, bản đồ hạ tầng, đồ thị quan hệ. Gephi miễn phí và chạy trên Windows, macOS và Linux.
+
+---
+
+## Best Practices
+
+- **Dùng nhiều công cụ, không chỉ một:** Mỗi công cụ có điểm mạnh riêng khi tìm kiếm từ các nguồn khác nhau — mạng xã hội, hồ sơ công khai, cơ sở dữ liệu kỹ thuật. Kết hợp nhiều công cụ để có bức tranh toàn diện hơn.
+
+- **Đa dạng hóa từ khóa tìm kiếm:** Dùng từ đồng nghĩa, thuật ngữ liên quan, thậm chí các lỗi chính tả thông thường để khám phá nhiều góc nhìn nhất có thể. Tận dụng bộ lọc tích hợp để thu hẹp kết quả theo ngày, vị trí và loại nguồn.
+
+- **Đánh giá độ tin cậy nguồn:** Khi có kết quả, đánh giá mức độ tin cậy và khả năng thiên lệch của mỗi nguồn — xem xét thẩm quyền, danh tiếng và bằng chứng xác nhận chéo.
+
+- **Tổ chức dữ liệu:** Dùng mind map, link chart và timeline để làm nổi bật các kết nối trong dữ liệu đã thu thập.
+
+- **Che giấu hành tung:** Dùng proxy, VPN và tài khoản ẩn danh để mục tiêu không phát hiện ra hoạt động điều tra. Luôn tuân thủ điều khoản sử dụng của nền tảng và luật bảo mật dữ liệu địa phương.
+
+- **Cập nhật liên tục:** Công cụ và phương pháp OSINT thay đổi nhanh chóng. Theo dõi RSS feeds, diễn đàn và cộng đồng bảo mật để luôn cập nhật những công cụ và kỹ thuật mới nhất.
 
