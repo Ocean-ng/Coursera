@@ -1,8 +1,8 @@
 
 
-## Phân Tích Tên Miền và Địa Chỉ IP
+# Phân Tích Tên Miền và Địa Chỉ IP
 
-### Giao Thức WHOIS
+## Giao Thức WHOIS
 
 WHOIS là cơ chế giúp tra cứu thông tin đăng ký tên miền.
 
