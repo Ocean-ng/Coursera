@@ -3,7 +3,7 @@ Cách hoạt động đơn giản: dùng requests để tải nội dung trang w
 
 -----
 
-## Khai thác Nền tảng Mạng xã hội (Social Media OSINT)
+# Khai thác Nền tảng Mạng xã hội (Social Media OSINT)
 
 Các mạng xã hội ([Twitter/X](https://twitter.com), [Facebook](https://www.facebook.com), [LinkedIn](https://www.linkedin.com), [Instagram](https://www.instagram.com)) không chỉ để giải trí mà là nguồn dữ liệu khổng lồ. Việc phân tích OSINT trên mạng xã hội giúp vẽ nên bức tranh toàn cảnh về nhân sự, hoạt động của một tổ chức, từ đó phát hiện ra các lỗ hổng tiềm ẩn. Nguyên tắc của quá trình này là thu thập thụ động (không tương tác trực tiếp với mục tiêu) và tập trung vào "yếu tố con người".
 
