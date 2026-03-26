@@ -1,8 +1,4 @@
 
-# Blogs và Website
-
-Nhiều nhà nghiên cứu bảo mật, chuyên gia tình báo và những người đam mê OSINT duy trì blog và website riêng, nơi họ thảo luận về các kỹ thuật, công cụ và case study mới nhất.
-
 - **[Bellingcat](https://www.bellingcat.com/):** Website báo chí điều tra chuyên về fact-checking và OSINT. Bellingcat thường công bố chi tiết phương pháp luận đằng sau các cuộc điều tra của họ — đây là nguồn học tập xuất sắc.
 
 - **[OSINT Curious](https://www.osintcurio.us/):** Dự án tập trung vào tin tức và tài nguyên OSINT. Cung cấp webcasts, blog, công cụ và mẹo cho cộng đồng OSINT.
@@ -14,9 +10,6 @@ Nhiều nhà nghiên cứu bảo mật, chuyên gia tình báo và những ngư�
 - **[OSINT Essentials](https://www.osintessentials.com/):** Website giàu tài nguyên cung cấp nhiều công cụ, tài liệu tham khảo và hướng dẫn cho các chuyên gia và người đam mê OSINT.
 
 - **[OSINT Techniques](https://www.osinttechniques.com/):** Website tổng hợp các công cụ OSINT theo danh mục kèm nội dung hướng dẫn sử dụng.
-# Nền Tảng Tình Báo Đe Dọa Mạng và Tích Hợp OSINT
-
-Các nền tảng tình báo đe dọa mạng (Cyber Threat Intelligence Platforms) là công cụ mà các đội bảo mật dùng để theo dõi các mối đe dọa tiềm ẩn. Chúng thu thập thông tin từ nhiều nguồn trên internet, phân tích và cảnh báo về các nguy cơ tấn công trước khi chúng xảy ra.
 
 ---
 
@@ -28,11 +21,23 @@ Các nền tảng tình báo đe dọa mạng (Cyber Threat Intelligence Platfor
 
 - **[Recorded Future](https://www.recordedfuture.com/):** Phân tích lượng lớn dữ liệu để **dự đoán các mối đe dọa trong tương lai**, giúp tổ chức chủ động chuẩn bị trước khi bị tấn công. Ngoài ra, Recorded Future cung cấp nhiều tài nguyên nghiên cứu bảo mật miễn phí.
 
+
 ---
 
-## Hội Nghị và Workshop
+- **[Sprout Social](https://sproutsocial.com/):** Công cụ toàn diện cho kiểm toán, phân tích và quản lý mạng xã hội.
+- **[Hootsuite](https://www.hootsuite.com/):** Quản lý nhiều tài khoản mạng xã hội và theo dõi hiệu suất.
+- **[Google Analytics](https://analytics.google.com/):** Theo dõi và phân tích hiệu suất website.
 
-Hàng năm, các hội nghị bảo mật lớn như **DEF CON**, **Black Hat** và **Bsides** đều có các phiên chuyên biệt về OSINT. Đây là môi trường lý tưởng để học OSINT qua thực hành trực tiếp, với giảng viên thường là những chuyên gia hàng đầu trong lĩnh vực này. Ngoài ra, các hội nghị này còn là nơi tuyệt vời để kết nối với cộng đồng bảo mật — mở ra cơ hội học hỏi và phát triển nghề nghiệp.
+---
+
+
+- **[Google Alerts](https://www.google.com/alerts):** Cài đặt cảnh báo cho tên và các định danh cá nhân khác. Công cụ này thông báo mỗi khi thông tin mới chứa các định danh này xuất hiện trực tuyến.
+
+- **[Have I Been Pwned?](https://haveibeenpwned.com/):** Được tạo bởi Troy Hunt — chuyên gia bảo mật người Úc, Microsoft Regional Director và MVP. Đây là dịch vụ miễn phí để kiểm tra xem địa chỉ email của bạn có nằm trong bất kỳ vụ rò rỉ dữ liệu nào không. Nhấn nút **Notify Me** để nhận thông báo email ngay khi tài khoản của bạn bị phát hiện trong một vụ breach mới.
+
+- **Cài đặt quyền riêng tư trên mạng xã hội:** Hầu hết các nền tảng đều cung cấp công cụ kiểm soát quyền riêng tư. Theo dõi các thông báo thay đổi tính năng của nền tảng vì chúng cập nhật liên tục.
+
+- **[DeleteMe](https://joindeleteme.com/):** Dịch vụ trả phí hỗ trợ xóa thông tin cá nhân khỏi internet bằng cách liên hệ với các data broker và website thay mặt bạn. Đây là dịch vụ trả phí nhưng hiệu quả cho việc bảo vệ quyền riêng tư.
 
 ---
 
