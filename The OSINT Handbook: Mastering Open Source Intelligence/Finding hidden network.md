@@ -1,5 +1,5 @@
 
-## Tìm Mạng Wi-Fi Ẩn
+# Tìm Mạng Wi-Fi Ẩn
 
 Một mạng Wi-Fi ẩn (hidden network) không phát sóng SSID công khai, nhưng điều đó không có nghĩa là nó vô hình. Bất kỳ thiết bị nào đang kết nối với mạng ẩn đó đều liên tục gửi probe request để duy trì kết nối — và các probe request này chứa SSID thật.
 
