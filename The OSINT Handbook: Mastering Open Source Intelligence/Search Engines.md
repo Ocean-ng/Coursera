@@ -1,4 +1,4 @@
-## Tầm quan trọng của việc lựa chọn phương pháp phù hợp
+# Tầm quan trọng của việc lựa chọn phương pháp phù hợp
 
 Trong OSINT, việc chọn đúng kỹ thuật cho một nhiệm vụ cụ thể cũng giống như việc chọn đúng công cụ để làm việc. Ví dụ:
 
